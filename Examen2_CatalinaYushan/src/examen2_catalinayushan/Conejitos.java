@@ -7,19 +7,21 @@ public class Conejitos {
     String nombre;
     int precio;
 
-    ArrayList<String> Conejitos = new ArrayList<String>();
     public Conejitos(String k, int m){
         this.nombre=k;
         this.precio=m;
     }
     
-    public Conejitos(){
+    public ArrayList<String> Conejitos(){
+        Scanner quaxly = new Scanner(System.in);
+        ArrayList<String> Conejitos = new ArrayList<String>();
         System.out.println("Has decidido conseguir un conejito!");
         System.out.println("Dale un nombre a tu conejito");
         System.out.println("Ingresa el nombre de tu conejito: ");
-        
-        System.out.println("Has adquirido una nueva vaquita!");
-        
+        nombre = quaxly.nextLine();
+        Conejitos.add(nombre);
+        System.out.println("Has adquirido un nuevo conejito!");
+        return Conejitos;
     }
     
     public String getNombre() {

@@ -30,14 +30,14 @@ public class Examen2_CatalinaYushan {
         do {
             switch (choice) {
                 case 1:
-                    System.out.println("--------------------------------------");
+                    System.out.println("--------------------Dia" +dias+ "--------------------");
                     System.out.println("Te sentías muy cansado hoy....");
                     System.out.println("Decidiste descansar el día de hoy!");
                     System.out.println("Z..z..z..z");
                     System.out.println("-----Ha transcurrido" +dias+ " días-----");
                     break;
                 case 2:
-                    System.out.println("--------------------------------------");
+                    System.out.println("--------------------Dia" +dias+ "--------------------");
                     System.out.println("Crees que ya es hora de ensuciarte un poco las manos...");
                     System.out.println("Has decidido plantar una cosecha!");
                     System.out.println("Recuerda! Tienes que esperar cinco días antes de poder cultivar la cosecha");
@@ -57,7 +57,7 @@ public class Examen2_CatalinaYushan {
                 case 5:
                     break;
                 case 6:
-                    System.out.println("---------------------------------------------");
+                    System.out.println("--------------------Dia" +dias+ "--------------------");
                     System.out.println("Tu vida como granjero ha sido larga y dura...");
                     System.out.println("Has encontrado mucha felicidad durante tus dias como granjero pero, es esto todo lo que quieres en la vida?");
                     System.out.println("Decidiste que es momento de retirarte y finalmente hacer lo que siempre has deseado, lo que tu corazon siempre ha anhelado pero jamas ha tenido el valor de explorar.!");

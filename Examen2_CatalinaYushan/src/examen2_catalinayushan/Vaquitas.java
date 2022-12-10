@@ -7,23 +7,24 @@ public class Vaquitas {
     String name;
     int price;
 
-    ArrayList<String>Vaquitas = new ArrayList<String>();
     
     public Vaquitas(String n, int p){
         this.name=n;
         this.price=p;
     }
-    
-    public Vaquitas(){
+
+    public ArrayList<String> getVaquitas (){
         Scanner fuecoco = new Scanner(System.in);
-        System.out.println("Has decidido conseguir un conejito!");
+        ArrayList<String> Vaquitas = new ArrayList<String>();
+        System.out.println("Has decidido conseguir un vaquita!");
         System.out.println("Dale un nombre a tu vaquita!");
         System.out.println("Ingrese el nombre de su vaquita: ");
-        String moo = fuecoco.nextLine();
-        //Vaquita.add(fuecoco());
+        name = fuecoco.nextLine();
+        Vaquitas.add(name);
         System.out.println("Has conseguido una nueva vaquita!");
+        return Vaquitas;
     }
-    
+
     
     public String getName() {
         return name;
